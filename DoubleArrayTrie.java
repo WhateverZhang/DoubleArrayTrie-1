@@ -116,7 +116,7 @@ public class DoubleArrayTrie {
    * @param str the string to be matched
    * @return return the matched prefix or null if not matched
    */
-  public String search(String str) {
+  public String findPrefix(String str) {
     int count = 0;
     int prePos = 0;
     for (Character ch : str.toCharArray()) {
